@@ -53,6 +53,18 @@ body{
     font-family: 'Press Start 2P', cursive;
 }
 
+.btn{
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 12px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+
 #scoreCont{
     position: absolute;
     right: 45px;
