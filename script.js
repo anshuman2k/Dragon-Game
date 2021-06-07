@@ -52,7 +52,7 @@ setInterval(() => {
         }, 1000);
         cross=false;
     }
-    else if (cross && offsetX < 145) {
+    else if (cross && offsetX < 200) {
         score += 1;
         updateScore(score);
         cross = false;
