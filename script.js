@@ -43,7 +43,7 @@ setInterval(() => {
     offsetY = Math.abs(dy - oy);
 
     if (offsetX < 73 && offsetY < 52) {
-        gameOver.innerHTML = 'Game Over - <button class="btn" onClick="window.location.href=window.location.href"><i class="fa fa-refresh"></i> Reload</button>';
+        gameOver.innerHTML = 'Game Over - <button class="btn" onClick="window.location.href=window.location.href"><i class="fa fa-refresh"></i> Play Again</button>';
         obstacle.classList.remove('obstacleAni');
         audiogo.play();
         setTimeout(() => {
